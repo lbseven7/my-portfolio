@@ -18,7 +18,6 @@ const Home = () => {
   return (
     <section style={sectionHome}>
       <div style={{ position: 'relative', marginBottom: '5px' }}>
-          {/* <h3 style={{ marginBottom: '5px' }}>OLÁ, EU SOU O ALEXSANDRO</h3> */}
         <div style={{
           position: 'absolute',
           top: '-300px',
