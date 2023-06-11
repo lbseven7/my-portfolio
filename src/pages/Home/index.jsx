@@ -1,4 +1,3 @@
-// import titleBg from '../../images/desktop/titulo.png'
 
 const Home = () => {
 
@@ -16,25 +15,38 @@ const Home = () => {
   }
   
   return (
+    <>
     <section style={sectionHome}>
-      <div style={{ position: 'relative', marginBottom: '5px' }}>
-        <div style={{
-          position: 'absolute',
-          top: '-300px',
-          right: '0'
 
-        }}>
-          <h1 style={{
-            margin: '-35px',
-            marginBottom: '0px',
-            fontSize: '14rem',
-          }}>REACT</h1>
+      <div style={{ position: 'relative', marginBottom: '5px' }}>
+
+        <div style={{ position: 'absolute', left: '-275px', top: '70px', display: 'inline', width: '15vw' }}>
+            <p style={{marginLeft: '-130px',fontSize: '2rem', textAlign: 'left',  }}>Olá , Eu Sou o ALEXSANDRO</p>
         </div>
-        <div style={{ position: 'absolute', bottom: '0', left: '-480px', top: '-170px' }}>
-            <h2 style={{marginLeft: '-35px',fontSize: '14rem',}}>DEVELOPER</h2>
+
+        <div style={{position: 'absolute',top: '40px', right: '-400px'}}>
+          <h1 style={{margin: '32px', marginBottom: '0px',fontSize: '10rem', color: '#F18403'}}>FRONTEND</h1>
         </div>
-      </div>
+
+        <div style={{ position: 'absolute', bottom: '0', left: '-275px', top: '180px' }}>
+            <h2 style={{marginLeft: '-136px',fontSize: '10rem'}}>DEVELOPER</h2>
+        </div>
+
+        </div>
+        
+        <div style={{ marginRight: '100px', fontSize: '1.5rem', width: '35vw', height:'20vh', marginTop: '350px', marginLeft: '650px' }}>
+           <h3>
+              Tenho 40 anos, sou desenvolvedor frontend 
+              <br />com foco em ReactJS e NodeJS.
+              Tenho 16 meses <br />de experiência trabalhando 
+              como freelancer.
+            </h3>
+       </div>
+       
+            
     </section> 
+
+    </>
   );
 };
 
