@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Loading from './Loading';
+import Loading from './components/Loading';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -7,7 +7,7 @@ const App = () => {
   useEffect(() => {
     const simulateLoading = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 5000);
 
     return () => {
       clearTimeout(simulateLoading);
