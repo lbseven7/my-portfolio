@@ -1,4 +1,5 @@
-import { FaGithub, FaWhatsapp, FaFileDownload  } from 'react-icons/fa'
+import { FaGithub, FaWhatsapp, FaFileDownload } from 'react-icons/fa';
+// import {Link}  from 'react-router-dom';
 
 const Footer = () => {
 
@@ -23,21 +24,27 @@ const Footer = () => {
         gap: '30px',
         height: '50px',
       }}>
-        <FaWhatsapp style={{
-          height: '100%',
-          width: '40px',
-          color: 'gray',
-        }} />
+        <a href='https://api.whatsapp.com/send?phone=5573988146516' target='_blank' rel="noreferrer">
+          <FaWhatsapp style={{
+            height: '100%',
+            width: '40px',
+            color: 'gray',
+          }} />
+        </a>
+        <a href="caminho-para-o-seu-cv" target="_blank">
         <FaFileDownload style={{
           height: '100%',
           width: '30px',
           color: 'gray',
-        }} />
+          }} />
+        </a>
+        <a href="https://github.com/lbseven7" target="_blank" rel="noreferrer">
         <FaGithub style={{
           height: '100%',
           width: '40px',
           color: 'gray',
-        }} />
+          }} />
+          </a>
       </div>
       <p style={{
         textAlign: 'center',
@@ -51,12 +58,12 @@ const Footer = () => {
 
 export default Footer;
 
-/*<a href="https://api.whatsapp.com/send?phone=5573988146516" target="_blank" rel="noopener noreferrer">
+/*<a href="" target="_blank" rel="noopener noreferrer">
           <img style={{ width: '150px', background: 'red'}} src={whatsapp} alt="WhatsApp" />
         </a>
-        <a href="caminho-para-o-seu-cv" target="_blank">
+        <a >
           <img style={{ width: '150px'}} src={cv} alt="CV" />
         </a>
-        <a href="https://github.com/lbseven7" target="_blank" rel="noopener noreferrer">
+        <a  rel="noopener noreferrer">
           <img style={{ width: '150px'}} src={github} alt="GitHub" />
         </a>*/
