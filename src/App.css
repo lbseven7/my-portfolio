@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: 'linear-gradient(90deg, #080808 0%, #252528 35%, #777878 100%)',
+}
+
 body.loading {
   background-image: url(./images/desktop/desktop-bg.png);
   background-repeat: no-repeat;
