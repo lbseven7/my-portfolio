@@ -1,6 +1,6 @@
 import React from 'react';
-import front from '../../images/desktop/logo-cinza.png';
-import back from '../../images/desktop/logo-laranja.png';
+import front from '../../images/desktop/logo-transp.png';
+import back from '../../images/desktop/logo-transp.png';
 
 const Loading = () => {
 
