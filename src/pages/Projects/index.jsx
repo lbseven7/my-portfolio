@@ -96,7 +96,8 @@ const Projects = () => {
         </div>   
       </section> 
       
-      <hr /> 
+      <hr />
+      <hr />
 
     </>
   );
