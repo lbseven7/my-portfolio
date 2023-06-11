@@ -1,24 +1,26 @@
-import React, { useState, useEffect } from 'react';
-import Loading from './components/Loading';
+// import React, { useState, useEffect } from 'react';
+// import Loading from './components/Loading';
 import './App.css';
-import Home from './pages/Home';
+import Projects from './pages/Projects';
+// import Home from './pages/Home';
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const simulateLoading = setTimeout(() => {
-      setIsLoading(false);
-    }, 4000);
+  // useEffect(() => {
+  //   const simulateLoading = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 4000);
 
-    return () => {
-      clearTimeout(simulateLoading);
-    };
-  }, []);
+  //   return () => {
+  //     clearTimeout(simulateLoading);
+  //   };
+  // }, []);
 
   return (
     <div>
-      {isLoading ? <Loading /> : <Home />}
+      <Projects />
+      {/* {isLoading ? <Loading /> : <Home />} */}
     </div>
   );
 };
