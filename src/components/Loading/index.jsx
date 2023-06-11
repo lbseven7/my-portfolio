@@ -1,12 +1,22 @@
 import React from 'react';
-import loading from '../../images/desktop/loading1.png';
+import front from '../../images/desktop/logo-cinza.png';
+import back from '../../images/desktop/logo-laranja.png';
 
 const Loading = () => {
+
+  React.useEffect(() => {
+    document.body.classList.add('loading');
+    return () => {
+      document.body.classList.remove('loading');
+    };
+  }, []);
+  
   return (
-    <div>
-      {/* <h2>Loading...</h2> */}
-      {/* <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="loading" /> */}
-      <img src={loading} alt="loading" />
+    <div className="logo">
+      <div className="logo-container">
+        <div className="front-face" style={{ backgroundImage: `url(${front})` }}></div>
+        <div className="back-face" style={{ backgroundImage: `url(${back})` }}></div>
+      </div>
     </div>
   );
 };
