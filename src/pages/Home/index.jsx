@@ -18,18 +18,18 @@ const Home = () => {
     <>
     <section style={sectionHome}>
 
-      <div style={{ position: 'relative', marginBottom: '5px' }}>
+      <div style={{ position: 'relative', marginBottom: '5px', display: 'flex', flexDirection: 'column', marginTop: '200px' }}>
 
-        <div style={{ position: 'absolute', left: '-275px', top: '70px', display: 'inline', width: '15vw' }}>
-            <p style={{marginLeft: '-130px',fontSize: '2rem', textAlign: 'left',  }}>Olá , Eu Sou o ALEXSANDRO</p>
+        <div style={{  }}>
+            <p style={{marginLeft: '-35px',fontSize: '0.5rem', marginTop: '170px'  }}>Olá, Eu Sou o ALEXSANDRO</p>
         </div>
 
-        <div style={{position: 'absolute',top: '40px', right: '-400px'}}>
-          <h1 style={{margin: '32px', marginBottom: '0px',fontSize: '10rem', color: '#F18403'}}>FRONTEND</h1>
+        <div style={{position: 'absolute',top: '150px', marginLeft: '-77px' }}>
+          <h1 style={{margin: '32px', marginBottom: '0px',fontSize: '3rem', color: '#F18403'}}>FRONTEND</h1>
         </div>
 
-        <div style={{ position: 'absolute', bottom: '0', left: '-275px', top: '180px' }}>
-            <h2 style={{marginLeft: '-136px',fontSize: '10rem'}}>DEVELOPER</h2>
+        <div style={{ position: 'absolute', bottom: '0', top: '220px' }}>
+            <h2 style={{marginLeft: '-45px',fontSize: '3rem'}}>DEVELOPER</h2>
         </div>
 
         </div>
