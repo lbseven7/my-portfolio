@@ -19,7 +19,8 @@ const Projects = () => {
         </div>   
       </section> 
 
-      <hr />      
+      <hr />
+      
       <section className='projects'>
         <div className='container' >
           <img src={work2} alt="work2"/>
@@ -31,9 +32,6 @@ const Projects = () => {
            
         </div>   
       </section> 
-      
-      <hr />
-      <hr />
 
     </>
   );
