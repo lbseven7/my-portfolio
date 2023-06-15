@@ -2,7 +2,7 @@
 // import Loading from './components/Loading';
 import './App.css';
 import Footer from './components/Footer';
-// import Projects from './pages/Projects';
+import Projects from './pages/Projects';
 // import Home from './pages/Home';
 // import { BrowserRouter as Router, Link } from 'react-router-dom';
 
@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div>
-      {/* <Projects /> */}
+      <Projects />
       <Footer />
       {/* {isLoading ? <Loading /> : <Home />} */}
     </div>
