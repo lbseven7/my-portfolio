@@ -1,5 +1,5 @@
 import { FaGithub, FaWhatsapp, FaFileDownload } from 'react-icons/fa';
-import '../Footer/style.css';
+import '../Footer/footer.css';
 import cv from '../../profile.pdf';
 
 const Footer = () => {
