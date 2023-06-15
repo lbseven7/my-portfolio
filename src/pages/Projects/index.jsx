@@ -1,6 +1,6 @@
 import work1 from '../../images/desktop/projeto_01.png';
 import work2 from '../../images/desktop/projeto_02.png';
-import '../Projects/style.css';
+import '../Projects/projects.css';
 
 const Projects = () => {
   

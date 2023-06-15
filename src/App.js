@@ -21,6 +21,7 @@ const App = () => {
 
   return (
     <div>
+      <Home />
       <Projects />
       <Footer />
       {/* {isLoading ? <Loading /> : <Home />} */}
