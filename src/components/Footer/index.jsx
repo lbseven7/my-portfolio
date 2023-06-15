@@ -8,6 +8,7 @@ const Footer = () => {
     <div className='contacts'>
       <div className='container'>
         <div className='box-icons'>
+          {/* <h2>Contatos</h2> */}
           <a className='whatsapp' href='https://api.whatsapp.com/send?phone=5573988146516' target='_blank' rel="noreferrer">
             <FaWhatsapp />
           </a>
@@ -22,9 +23,9 @@ const Footer = () => {
             <FaGithub />
           </a>
         </div>
-
+        
       </div>
-        <p>&copy; lbseven7 2023</p>
+          <p>&copy;Desenvolvido por <a href='https://github.com/lbseven7' target='_blank' rel="noreferrer">lbseven7</a></p>
     </div>
   );
 };
