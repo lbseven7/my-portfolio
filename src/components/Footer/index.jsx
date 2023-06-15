@@ -22,7 +22,7 @@ const Footer = () => {
         </a>
 
       </div>
-        <p>&copy; lbseven7 2023 - Todos os direitos reservados</p>
+        <p>&copy; lbseven7 2023</p>
     </div>
   );
 };
