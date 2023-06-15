@@ -8,7 +8,6 @@ const Projects = () => {
     <>
       <section className='projects'>
         <div className='project-one' >
-         
           <img
             src={work1} alt="work1"/>
              
@@ -16,7 +15,7 @@ const Projects = () => {
           <h2>SITE DE SISTEMA DE<br /> CHAMADA ESCOLAR</h2>
 
           <button type='button'>VER PROJETO</button>
-          </div>
+        </div>
         
       </section> 
       
