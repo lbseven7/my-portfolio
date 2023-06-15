@@ -7,7 +7,8 @@ const Projects = () => {
   return (
     <>
       <section className='projects'>
-        <div className='container' >
+        <div className='project-one' >
+         
           <img
             src={work1} alt="work1"/>
              
@@ -15,22 +16,21 @@ const Projects = () => {
           <h2>SITE DE SISTEMA DE<br /> CHAMADA ESCOLAR</h2>
 
           <button type='button'>VER PROJETO</button>
-          
-        </div>   
+          </div>
+        
       </section> 
-
-      <hr />
       
       <section className='projects'>
-        <div className='container' >
-          <img src={work2} alt="work2"/>
+        <div className='project-two' >
+        
+            <img src={work2} alt="work2"/>
                
-          <h3>ESTUDO DE CASO</h3>
-          <h2>SITE DIVULGAÇÃO PARA<br /> PLANTIO DE PAU BRASIL</h2>
+            <h3>ESTUDO DE CASO</h3>
+            <h2>SITE DIVULGAÇÃO PARA<br /> PLANTIO DE PAU BRASIL</h2>
 
-          <button type='button'>VER PROJETO</button>
-           
-        </div>   
+            <button type='button'>VER PROJETO</button>
+         </div>
+       
       </section> 
 
     </>
