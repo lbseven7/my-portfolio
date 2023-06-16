@@ -7,7 +7,7 @@ const Projects = () => {
   
   return (
     <>
-      <section className='projects'>
+      <section className='projects' id='projects'>
         <div className='project-one' >
           <img
             src={work1} alt="work1"/>
