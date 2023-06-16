@@ -105,5 +105,13 @@
     margin-left: 30px;
     margin-right: 30px;
   }
+
+  .back-to-home {
+    color:#b77101;
+  }
+
+  .back-to-home:hover {
+    color: #ff9d00fb;
+  }
   
 }

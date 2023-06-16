@@ -1,4 +1,4 @@
-import { FaGithub, FaWhatsapp, FaFileDownload } from 'react-icons/fa';
+import { FaGithub, FaWhatsapp, FaFileDownload, FaArrowAltCircleUp } from 'react-icons/fa';
 import '../Footer/footer.css';
 import cv from '../../profile.pdf';
 
@@ -21,6 +21,10 @@ const Footer = () => {
           </a>
           <a className='github' href="https://github.com/lbseven7" target="_blank" rel="noreferrer">
             <FaGithub />
+          </a>
+
+          <a className='back-to-home' href="#">
+            <FaArrowAltCircleUp />
           </a>
         </div>
         
