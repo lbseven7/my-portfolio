@@ -1,3 +1,4 @@
+import { FaArrowAltCircleDown } from 'react-icons/fa';
 import '../Home/home.css';
 
 const Home = () => {
@@ -28,8 +29,14 @@ const Home = () => {
               com foco em FrontEnd.
               Tenho 16 meses de <br />experiência trabalhando 
               como freelancer.
-            </h3>
+        </h3>
+        <div className='go-projects'>
+            <a href="#projects">
+              <FaArrowAltCircleDown />
+            </a>
         </div>
+      </div>
+        
           
     </section> 
   );

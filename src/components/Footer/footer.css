@@ -56,6 +56,31 @@
   margin-right: 30px;
 }
 
+  .back-to-home {
+    color:#b77101;
+  }
+
+  .back-to-home:hover {
+    color: #ff9d00fb;
+  }
+
+  .go-projects {
+    color:#ffa600;
+  }
+
+  .go-projects:hover {
+    color: #ff9d00fb;
+  }
+
+  .go-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: -30px;
+  }
+
 
 /* footer para desktop */
 
@@ -107,11 +132,28 @@
   }
 
   .back-to-home {
-    color:#b77101;
+    color:#ff9d00;
   }
 
   .back-to-home:hover {
-    color: #ff9d00fb;
+    color: #faebd3fb;
+  }
+
+  .go-projects {
+    color:#ff9d00;
+  }
+
+  .go-projects:hover {
+    color: #faebd3fb;
+  }
+
+  .go-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: -30px;
   }
   
 }
